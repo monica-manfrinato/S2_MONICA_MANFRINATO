@@ -2,21 +2,21 @@
 def cadastrar_livro():
     print("Bem-vindo à Biblioteca!")
     print("Escolha uma categoria:")
-    print("1.")
-    print("2.")
-    print("3.")
-    print("4.")
+    print("1. Placa de vídeo")
+    print("2. Memória RAM")
+    print("3. Placa mãe")
+    print("4. Monitor")
     
     categoria = input("Digite o número da categoria desejada: ")
 
     if categoria == "1":
-        categoria_nome = ""
+        categoria_nome = "Placa de vídeo"
     elif categoria == "2":
-        categoria_nome = ""
+        categoria_nome = "Memória RAM"
     elif categoria == "3":
-        categoria_nome = ""
+        categoria_nome = "Placa mãe"
     elif categoria == "4":
-        categoria_nome = ""
+        categoria_nome = "Monitor"
     else:
         print("Categoria inválida! Tente novamente.")
         return cadastrar_livro()  # Chama novamente a função se a categoria for inválida
