@@ -1,22 +1,22 @@
 # Função para cadastrar livro de acordo com seu estilo
 def cadastrar_livro():
     print("Bem-vindo à Biblioteca!")
-    print("Escolha uma categoria para cadastrar o livro:")
-    print("1. Romance")
-    print("2. Terror")
-    print("3. Suspense")
-    print("4. Aventura")
+    print("Escolha uma categoria:")
+    print("1.")
+    print("2.")
+    print("3.")
+    print("4.")
     
     categoria = input("Digite o número da categoria desejada: ")
 
     if categoria == "1":
-        categoria_nome = "Romance"
+        categoria_nome = ""
     elif categoria == "2":
-        categoria_nome = "Terror"
+        categoria_nome = ""
     elif categoria == "3":
-        categoria_nome = "Suspense"
+        categoria_nome = ""
     elif categoria == "4":
-        categoria_nome = "Aventura"
+        categoria_nome = ""
     else:
         print("Categoria inválida! Tente novamente.")
         return cadastrar_livro()  # Chama novamente a função se a categoria for inválida
